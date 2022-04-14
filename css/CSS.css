@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* CSS Variable */
+
+:root {
+    --primary: #ddd; 
+    ---dark: rgb(0, 0, 0);
+    --light: #fff;
+    --red: rgb(170, 38, 38);
+    --shadow: 0 1px 5px rgba(104, 104, 104 0.8);
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+    float: left;
+    width: 100%;
+}
+
+aside {
+    float: right;
+    margin-top: 50px;
+    list-style: none;
+    margin-bottom: 200px;
+}   
+section {
+    float: left;
+    margin-right: 320px;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--light);
+}
+
+h1 { 
+    font-size: 44px;
+    color:var(---light);
+}
+
+
+
+
+body {
+    background: #03111A;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20px 100px;
+    line-height: 1.4;
+}
+
+
+.main-nav ul {
+    display: grid;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.main-nav a {
+    background: rgb(255, 238, 0);
+    display: block;
+    text-decoration: none;
+    padding: 1.2rem;
+    text-align: center;
+    color: var(---dark);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    box-shadow: var(---dark);
+    border-radius: 10px 10px 10px 10px;
+}
+.main-nav a:hover {
+    background: var(---dark);
+    color: rgb(255, 238, 0);
+    border-radius: 10px 10px 10px 10px;
+}
+

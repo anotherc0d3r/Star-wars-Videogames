@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* CSS Variable */
+
+:root {
+    --primary: #ddd; 
+    ---dark: rgb(0, 0, 0);
+    --light: #fff;
+    --red: rgb(170, 38, 38);
+    --shadow: 0 1px 5px rgba(104, 104, 104 0.8);
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--light);
+}
+
+body {
+    Background: url('/Images/#') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20px 50px;
+    line-height: 1.4;
+    color: var(---dark);
+    size: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+aside {
+    float: right;
+    margin-right: 50px;
+}
+.H1 {
+    size: 60px;
+    color:var(---dark);
+}
+img {
+    size: 100%;
+}
+.p {
+    size: 44px;
+}
+
+.main-nav ul {
+    display: grid;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+
+}
+section {
+    float: left;
+    
+}
+.main-nav a {
+    background: #666;
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(---dark);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    box-shadow: var(---dark);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.main-nav a:hover {
+    background: var(---dark);
+    color: #666;
+    font-size: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+}
