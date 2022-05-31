@@ -1,4 +1,4 @@
-###Star-Wars-Videogames
+### Star-Wars-Videogames
 
 ## About My Website
 My Project is a review Website about Star Wars Videogames. It aims to give a fresh perspective on the games and how they play.
@@ -17,7 +17,7 @@ I chose this because I am interested in Star Wars, The different ways they make 
 2. I remade every page in Maori to make it multilingual.
 3. I used CSS Grid to organise my website page easily.
 
-##Fonts 
+## Fonts 
 
 I used Times New Roman, Times and Serif for my fonts because they are easy to read and basic.
 
