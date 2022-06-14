@@ -24,7 +24,5 @@ I used Times New Roman, Times and Serif for my fonts because they are easy to re
 
 ## Other Sites Used
 
-*https://html-color-codes.info/colors-from-image/
-*https://pixlr.com/e/
-
-
+* https://html-color-codes.info/colors-from-image/
+* https://pixlr.com/e/
